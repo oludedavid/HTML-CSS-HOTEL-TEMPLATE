@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Jasmine</title>
+  </head>
+  <body>
+    <!-- Header section -->
+    <header class="header-container">
+      <input type="checkbox" id="toggle" />
+      <label for="toggle">
+        <img src="./images/menu.png" alt="" />
+      </label>
+      <h1 class="logo">Jas<strong>MINE.</strong></h1>
+      <nav class="navigation-menu">
+        <ul class="list-container">
+          <li class="list-items"><a class="list-links" href="#">Home</a></li>
+          <li class="list-items"><a class="list-links" href="#">Rooms</a></li>
+          <li class="list-items">
+            <a class="list-links" href="#">Book now</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main section -->
+    <main class="main-container">
+      <!-- Introduction section -->
+      <section class="introduction-section" id="home">
+        <section class="introduction-section-text">
+          <h2>Welcome to JasMINE!</h2>
+          <p>A home far from home. The sun rises and sets in Jas.</p>
+          <button class="book-now">Book now</button>
+        </section>
+        <figure class="image-container">
+          <img class="intro-image" src="./images/background3.jpg" alt="" />
+        </figure>
+        <figure class="arrow-container">
+          <a href="#room" class="arrow-link">
+            <img src="./images/arrow.png" alt=""
+          /></a>
+        </figure>
+      </section>
+
+      <!-- room cards -->
+      <section class="rooms-section" id="room">
+        <h2>Our Rooms for you....</h2>
+        <section class="card-section">
+          <section class="cards single-room-card">
+            <div class="hover-container">
+              <section>
+                <h1 class="hover-header">50$ / Night</h1>
+                <button class="hover-btn">Book Now</button>
+              </section>
+            </div>
+            <h4>Single Room</h4>
+            <figure class="figure-card">
+              <img class="card-image" src="./images/background2.jpg" alt="" />
+            </figure>
+            <p class="card-text">Singles to Mingle</p>
+            <button>Book Now</button>
+          </section>
+          <section class="cards deluxe-room">
+            <div class="hover-container">
+              <section>
+                <h1 class="hover-header">150$ / Night</h1>
+                <button class="hover-btn">Book Now</button>
+              </section>
+            </div>
+            <h4>Deluxe Room</h4>
+            <figure class="figure-card">
+              <img class="card-image" src="./images/backgroung1.jpg" alt="" />
+            </figure>
+            <p class="card-text">Delight in Passion</p>
+            <button>Book Now</button>
+          </section>
+          <section class="cards presidential-room">
+            <div class="hover-container">
+              <section>
+                <h1 class="hover-header">250$ / Night</h1>
+                <button class="hover-btn">Book Now</button>
+              </section>
+            </div>
+            <h4>Presidential Room</h4>
+            <figure class="figure-card">
+              <img class="card-image" src="./images/background5.jpg" alt="" />
+            </figure>
+            <p class="card-text">Where the King Sleeps</p>
+            <button>Book Now</button>
+          </section>
+          <section class="cards premium-room">
+            <div class="hover-container">
+              <section>
+                <h1 class="hover-header">350$ / Night</h1>
+                <button class="hover-btn">Book Now</button>
+              </section>
+            </div>
+            <h4>Premium Suites</h4>
+            <figure class="figure-card">
+              <img class="card-image" src="./images/background4.jpg" alt="" />
+            </figure>
+            <p class="card-text">The feel of Paradise</p>
+            <button>Book Now</button>
+          </section>
+        </section>
+      </section>
+      <!-- quote section -->
+      <section class="quotes-section" id="quote">
+        <section class="quote-text">
+          <p>
+            "Hospitality is making your guests feel at home, even if you wish
+            they were."
+          </p>
+          <section class="quote-author">
+            <h3>-Justine Vogt</h3>
+          </section>
+        </section>
+
+        <!-- book now container -->
+        <section class="book-now-section" id="book">
+          <div class="call-to-action">
+            <div class="action-text">
+              <h3>Book Now!! it's time!</h3>
+              <p>Book Now! and Experience the hospitality of Jasmine</p>
+            </div>
+
+            <button class="signup-btn">Book now</button>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <!-- footer section -->
+
+    <footer class="footer">Copyright &copy;</footer>
+  </body>
+</html>
